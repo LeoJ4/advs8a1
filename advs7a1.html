@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> jquery events 1</title>
+	<script type="text/javascript" src="jquery1.js"></script>
+	<script type="text/javascript">
+	$(document).ready(function() {
+	
+	$('div').click(function()
+	{
+	$('div').append('<p> Singe Click </p>');
+	});
+	
+	$('div').dblclick(function()
+	{
+		$('div').append("<p>This is a Double click</p>");
+	});
+	
+	});
+	</script>
+</head>
+<body>
+
+<div>
+<p> single or double click here </p>
+</div>
+</body>
+</html>
+
